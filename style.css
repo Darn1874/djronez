@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, p {
+  margin: 0 0 15px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar .logo img {
+  max-height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  background: #f4f4f4;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+/* My Mixes Section */
+.mixes {
+  padding: 50px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.mix {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mix img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.mix-info {
+  flex: 1;
+}
+
+.mix-info audio {
+  display: block;
+  margin-top: 10px;
+}
+
+.download-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #555;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+.contact .social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact .social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
